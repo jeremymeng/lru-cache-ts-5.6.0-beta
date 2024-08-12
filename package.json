@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "build": "tsc -p .",
+    "clean": "rimraf --glob dist* types"
+  },
+  "dependencies": {
+    "@types/node": "^18.19.44",
+    "lru-cache": "10.4.3",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "typescript": "5.6.0-beta"
+  }
+}
+
